@@ -1,6 +1,6 @@
 package dev.nelon;
 
-public class MyThread extends Thread {
+public class MyRunner implements Runnable {
 	
 	@Override
 	public void run() {
@@ -8,4 +8,5 @@ public class MyThread extends Thread {
 			System.out.println("Hello from = " + i);
 		}
 	}
+	
 }
